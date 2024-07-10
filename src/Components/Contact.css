@@ -1,0 +1,119 @@
+.contactpage {
+    display: flex;
+    color: white;
+    padding: 60px 60px;
+}
+
+.contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+.mobileno i {
+    font-size: 22px;
+    color: lightseagreen;
+}
+
+.message {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.message h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.message h1 span,
+.contact h1 span {
+    color: lightseagreen;
+}
+
+.mobileno {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mobileno span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.inputfield {
+    background-color: rgb(34, 34, 34);
+    outline: none;
+    width: 80%;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0px 10px;
+    color: white;
+}
+
+#txt {
+    resize: none;
+    background-color: rgb(34, 34, 34);
+    outline: none;
+    width: 80%;
+    border: 1px solid whitesmoke;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.subbutton {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 11px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid lightseagreen;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.subbutton:hover {
+    box-shadow: 0 0 7px lightseagreen;
+}
+
+@media (max-width: 765px) {
+    .contact {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .contactpage {
+        padding: 25px 15px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .inputfield,
+    #txt {
+        width: 90%;
+    }
+
+    .message h1,
+    .contact h1 {
+        font-size: 35px;
+    }
+}

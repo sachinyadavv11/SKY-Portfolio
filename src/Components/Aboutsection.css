@@ -1,0 +1,65 @@
+.secondpage {
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#aboutme {
+    width: 60%;
+}
+
+#aboutme h1 {
+    font-size: 40px;
+}
+
+#aboutme span {
+    color: lightseagreen;
+}
+
+#aboutme p {
+    text-align: justify;
+    font-size: 25px;
+    color: whitesmoke;
+    line-height: 2.0;
+}
+
+.imagesky {
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+}
+
+.imagesky img {
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 765px) {
+    .secondpage {
+        flex-direction: column;
+        margin: 0px 30px;
+    }
+
+    .imagesky {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagesky img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #aboutme {
+        width: 100%;
+    }
+
+    #aboutme h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
