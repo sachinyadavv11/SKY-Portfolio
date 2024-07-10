@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SKY-Portfolio/static/css/main.b9485b05.css",
+    "main.js": "/SKY-Portfolio/static/js/main.10e931e9.js",
+    "static/js/453.acca0757.chunk.js": "/SKY-Portfolio/static/js/453.acca0757.chunk.js",
+    "index.html": "/SKY-Portfolio/index.html",
+    "main.b9485b05.css.map": "/SKY-Portfolio/static/css/main.b9485b05.css.map",
+    "main.10e931e9.js.map": "/SKY-Portfolio/static/js/main.10e931e9.js.map",
+    "453.acca0757.chunk.js.map": "/SKY-Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9485b05.css",
+    "static/js/main.10e931e9.js"
+  ]
+}
